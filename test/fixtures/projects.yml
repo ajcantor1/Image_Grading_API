@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  location: MyString
+  last_modified: 2019-08-09 09:23:30
+  created_by_id: 1
+
+two:
+  name: MyString
+  location: MyString
+  last_modified: 2019-08-09 09:23:30
+  created_by_id: 1
