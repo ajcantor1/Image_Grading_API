@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   post 'projects/create', :to => 'projects#create'
   post 'projects/list', :to => 'projects#list'
   post 'images/upload', :to => 'images#upload'
+  post 'images/list', :to => 'images#list'
 
   root to: "static#home"
   delete :logout, to: "sessions#logout"
