@@ -5,7 +5,6 @@ class CreateImages < ActiveRecord::Migration[5.2]
       t.string :location
       t.timestamp :uploaded_on
       t.references :project, foreign_key: true
-
       t.timestamps
     end
   end
